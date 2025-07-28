@@ -45,7 +45,7 @@ h1 {
 }
 
 h1 .fas {
-    color: #ffd700; /* Золотой цвет для иконки */
+    color: #ffd700; 
     font-size: 1.2em;
 }
 
@@ -74,7 +74,7 @@ th {
     font-weight: 700;
     color: #555;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 0.9em;
     letter-spacing: 0.5px;
 }
 
@@ -112,15 +112,46 @@ tbody tr:hover {
     transition: all 0.3s ease;
 }
 
+.place-number {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #a0a0a0; 
+    opacity: 0.7; 
+    font-size: 1em; 
+}
+
+.place-1 {
+    font-size: 1.4em; 
+    color: #FFD700; 
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    opacity: 1;
+}
+
+.place-2 {
+    font-size: 1.2em; 
+    color: #C0C0C0; 
+    text-shadow: 0 0 6px rgba(192, 192, 192, 0.6);
+    opacity: 1;
+}
+
+.place-3 {
+    font-size: 1em; 
+    color: #CD7F32; 
+    text-shadow: 0 0 4px rgba(205, 127, 50, 0.6);
+    opacity: 1;
+}
+
+
 /* Цвета рангов */
 .gray { background: #6c757d; }
 .green { background: #28a745; }
-.yellow { background: #ffc107; color: #333; } /* Убрал #333, чтобы был белый текст на жёлтом */
+.yellow { background: #ffc107; color: #333; }
 .orange { background: #fd7e14; }
 .red { background: #dc3545; }
 .black { background: #343a40; }
 .purple { background: #6f42c1; }
-.gold { background: linear-gradient(45deg, #FFD700, #DAA520); color: #333; } /* Новый ранг "Легенда" */
+.gold { background: linear-gradient(45deg, #FFD700, #DAA520); color: #333; }
 
 .footer-note {
     text-align: center;
@@ -152,6 +183,18 @@ tbody tr:hover {
     .rank-label {
         padding: 5px 10px;
         font-size: 0.8em;
+    }
+    .place-number {
+        font-size: 0.9em;
+    }
+    .place-1 {
+        font-size: 1.4em;
+    }
+    .place-2 {
+        font-size: 1.2em;
+    }
+    .place-3 {
+        font-size: 1em;
     }
 }
 
